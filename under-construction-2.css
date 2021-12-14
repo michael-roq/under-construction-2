@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.page-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.constr-line {
+    opacity: .98;
+}
+
+/* .construction-line-left {
+    width: 40px;
+    height: 100vh;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background: url('./imgs/construction-line-b.png');
+    z-index: 10;
+}
+
+.construction-line-right {
+    width: 40px;
+    height: 100vh;
+    position: absolute;
+    right: -10px;
+    top: 0;
+    background: url('./imgs/construction-line-b.png');
+    z-index: 10;
+} */
+
+/* .construction-line-top {
+    width: 40px;
+    height: 100vw;
+    transform: rotate(90deg);
+    position: absolute;
+    left: calc(50vw - 20px);
+    top: calc(-50vw + 10px);
+    background: url('./imgs/construction-line-b.png');
+    z-index: 12;
+}
+
+.construction-line-bottom {
+    width: 40px;
+    height: 100vw;
+    transform: rotate(90deg);
+    position: absolute;
+    left: calc(50vw - 20px);
+    bottom: calc(-50vw + 10px);
+    background: url('./imgs/construction-line-b.png');
+    z-index: 12;
+} */
+
+.under-construction-sign {
+    background: url('./imgs/color-sign.png');
+    width: 1200px;
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    /* left: -20vw; */
+    left: 0;
+    z-index: 100;
+    transition: all .8s ease-in-out;
+}
+
+
+/* @media (max-width: 675px) {
+    .under-construction-sign {
+        background-position: center -60px;
+    }
+} */
+
+
+
+.construction-worker-picture {
+    width: 100%;
+    height: 100%;
+    background: url('./imgs/background.png');
+    background-size: cover;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
